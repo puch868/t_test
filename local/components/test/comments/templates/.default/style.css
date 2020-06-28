@@ -1,0 +1,42 @@
+.comment-add input,
+.comment-add textarea
+{
+	width: 100%;
+    margin: 10px;
+    border-radius: 3px;
+    border: 1px solid;
+    padding: 5px;
+}
+
+.comment-add{
+	width:100%;
+	display:flex;
+	align-items:center;
+	flex-wrap:wrap;
+}
+
+.comments-block{
+	display:flex;
+	flex-wrap:wrap;
+	
+}
+
+.comment-block{
+	display:flex;
+	flex-wrap:wrap;
+	border-bottom:1px solid gray;
+	width:100%;
+}
+
+.comment-desc{
+	padding:10px;
+	
+}
+
+.comment-title{
+	width:100%;
+	font-weight:bold;
+	padding:10px;
+	justify-content:space-between;
+	display:flex;
+}
